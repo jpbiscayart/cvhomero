@@ -1,0 +1,142 @@
+*{
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    }
+h1{
+    font-family: comic Sans MS, Arial, Helvetica, sans-serif;  
+}
+h3{
+    text-align: center;
+}
+body{
+    background-image: url(../img/cielodos.jpeg);
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 0.1rem;  /* Padding de sombra a cada botón */
+} 
+nav ul { /* Lo hice para poner el nav en horizontal  */
+    list-style: none;
+    padding: 0;
+    text-align: center;   
+}
+nav li { /* Lo hice para poner el nav en horizontal */
+    display: inline; 
+    margin-right: 1rem; 
+}
+.sombra:hover { /* Estilo al pasar el mouse por encima de los enlaces */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+}
+header{
+    background-color: #b1eeff;
+    margin: 0px 5px 5px 5px;
+    padding: 0.1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(5, 110, 129, 0.71);
+    border: 2px solid #3498db;
+    position: fixed;
+    top: 0; 
+    z-index: 1;
+    left: 0; /* Alinea el borde izquierdo con el borde izquierdo del viewport */
+    right: 0;
+}
+
+#cv{
+    margin: 0.1rem;
+}
+
+#hola h2{
+    display: flex;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    text-shadow: -1px -1px 2px black;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 0;
+    margin-top: 5rem;
+}
+#soy h1{
+    display: flex;
+    flex-wrap: wrap;
+    color: yellow;
+    text-shadow: -1px -1px 2px black;
+    justify-content: center;
+    margin: 0;
+    font-size: 3.5rem;
+}
+
+#invertida{ /* para invertir la imagen */
+    display: inline-block;
+}
+img { /* para invertir la imagen */
+    transform: scaleX(-1);
+}
+.principal{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(5, 110, 129, 0.71);
+    border: 2px solid #3498db;
+}
+#patty {
+    text-decoration: line-through;
+}
+
+ul, ol, li {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.subti{
+    text-align: center;
+    padding: 1rem;
+    padding-bottom: 0.3rem;
+    margin: 0;
+}
+.textos{
+    text-align: justify;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+#objetivo{
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fotos img {
+    display: flex;
+    max-width: 10rem;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.puerco{ 
+    display: inline;
+    text-decoration: none;
+    color: inherit;
+}
+.puerco:hover { /* Estilo al pasar el mouse por encima de los enlaces */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+#contacto{
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+}
