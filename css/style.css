@@ -59,7 +59,7 @@ header{
 #soy h1{
     display: flex;
     flex-wrap: wrap;
-    color: yellow;
+    color: #fbda02;
     text-shadow: -1px -1px 2px black;
     justify-content: center;
     margin: 0;
@@ -97,7 +97,6 @@ ul, ol, li {
     font-size: 1rem;
     line-height: 1.5rem;
 }
-
 .subti{
     text-align: center;
     padding: 1rem;
@@ -123,7 +122,6 @@ ul, ol, li {
     border-radius: 10px;
     margin: auto;
 }
-
 .puerco{ 
     display: inline;
     text-decoration: none;
@@ -135,8 +133,58 @@ ul, ol, li {
 #contacto{
     text-align: center;
 }
-
 footer {
     text-align: center;
     font-size: 0.8rem;
 }
+.nav-toggle {
+    color: black;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    display: none;
+}
+
+/* Para móbiles */
+@media (max-width: 768px) {
+    header {
+        padding: 0;
+        border: 0;
+    }
+    nav ul {
+      display: none; /* Cambia a display block para que los elementos se alineen a la izquierda */
+      text-align: center;
+      padding: 0;
+      left: 50%;
+      transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+      opacity: 0;
+      transform: translateX(-50%);
+    }
+    nav li {
+      display: block;
+      margin: 0;
+    }
+    .nav-toggle {
+        display: block;
+        position: absolute; /* Establece la posición absoluta */
+        top: 0; /* Lo coloca en la parte superior */
+        right: 0; /* Lo coloca en la parte derecha */
+        margin: 1rem;
+    }
+    /* Estilo para mostrar el menú cuando se hace clic en el botón de hamburguesa */
+    nav ul.show-menu {
+        display: grid;
+        place-items: center;
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+  
+
+
+
+  
