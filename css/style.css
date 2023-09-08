@@ -171,6 +171,7 @@ footer {
         top: 0; /* Lo coloca en la parte superior */
         right: 0; /* Lo coloca en la parte derecha */
         margin: 1rem;
+        cursor: pointer;
     }
     /* Estilo para mostrar el menú cuando se hace clic en el botón de hamburguesa */
     nav ul.show-menu {
