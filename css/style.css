@@ -145,6 +145,9 @@ footer {
     padding: 0 1rem;
     display: none;
 }
+.copyright{
+    margin: 0;
+}
 
 /* Para móbiles */
 @media (max-width: 768px) {
